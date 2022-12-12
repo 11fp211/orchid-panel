@@ -10,6 +10,6 @@
 ## About Installation
 
 - composer i
-- php artisan orchid:install
+- php artisan migrate
 - php artisan orchid:admin admin admin@admin.com password
 - php artisan serve

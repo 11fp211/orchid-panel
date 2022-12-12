@@ -35,11 +35,13 @@ use Tabuna\Breadcrumbs\Trail;
 Route::screen('/main', PlatformScreen::class)
     ->name('platform.main');
 
-Route::screen('company/{company?}', CompanyEditScreen::class)
-    ->name('platform.company.edit');
-
+// Platform > Compananies
 Route::screen('companies', CompanyListScreen::class)
     ->name('platform.company.list');
+
+// Platform > Compananies > Company
+Route::screen('company/{company?}', CompanyEditScreen::class)
+->name('platform.company.edit');
 
 // Platform > Profile
 Route::screen('profile', UserProfileScreen::class)
