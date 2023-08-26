@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Installation
+## About Installation Orchid-panel (Open Source Laravel Admin Panel)
 
 - composer i
 - php artisan migrate
