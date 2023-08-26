@@ -12,4 +12,6 @@
 - composer i
 - php artisan migrate
 - php artisan orchid:admin admin admin@admin.com password
+- php artisan key:generate
+- php artisan storage:link (Also needs to change FILESYSTEM_DISK to public in .env)
 - php artisan serve
